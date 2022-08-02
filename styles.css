@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto-regular, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 50px 20px 50px;
+}
+.page-name {
+    margin: 10px 10px 10px 0px;
+}
+.top-content {
+    background-color: #1f2937;
+    display: flex;
+    align-content: center;
+    padding: 10px 50px 0px 50px;
+}
+
+.top-text-container{
+    width: 300px;
+    margin-right: 30px;
+    justify-content: flex-start;
+}
+
+.top-sub-text {
+    font-size: 18px;
+}
+ul {
+    margin-left: auto;
+    list-style: none;
+    padding-left: 5px;
+    flex-wrap: nowrap; 
+}
+.header-list { 
+    display: flex;
+}
+.middle-content {
+color: black;
+text-align: center;
+padding: 10px;
+}
+.mid-textbox-container {
+    display: flex; 
+    font-size: 18px;  
+    justify-content: space-between;
+    padding: 10px 15px;
+    text-align:center;
+}
+.mid-textbox {
+    display: flex;  
+    flex-direction: column ; 
+    width: 150px;
+    margin: 10px;
+}
+.mid-textbox img {
+    width: 130px;
+    height: 130px;
+    border: solid 4px #3882f6;
+    border-radius: 8px;
+    margin: 10px;
+
+}
+.header-list a{ 
+    text-decoration: none;
+    font-size: 18px;
+    color:#E5E7EB;
+    padding: 10px;
+}
+
+a {
+    font-family: Roboto;
+}
+.sign-button {
+    padding: 8px 36px;
+    margin-bottom: 15px;
+    border-radius:8px;
+    background-color: #3882f6;
+    }
+.citation {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: light italic;
+    font-size: 36px;
+    color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 50px;
+}
+
+
+.top-content img {
+    margin-right: auto;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    padding-bottom: 20px;
+    flex:none;
+}
