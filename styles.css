@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+
 body {
-    display: flex;
-    flex-direction: column;
-    font-family: Roboto-regular, 'Times New Roman', Times, serif;
+    display: inline-block;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
     font-size: 48px;
     color: #F9FAF8;
     margin: 0px;
+    min-width: 100%;
+
 }
 .header {
     display: flex;
@@ -17,14 +20,23 @@ body {
     font-size: 24px;
     padding: 20px 50px 20px 50px;
 }
+
+.header-list a{ 
+    text-decoration: none;
+    font-size: 18px;
+    color:#E5E7EB;
+    padding: 10px;
+}
 .page-name {
     margin: 10px 10px 10px 0px;
 }
+
 .top-content {
     background-color: #1f2937;
     display: flex;
     align-content: center;
     padding: 10px 50px 0px 50px;
+    flex:auto;
 }
 
 .top-text-container{
@@ -69,14 +81,61 @@ padding: 10px;
     border: solid 4px #3882f6;
     border-radius: 8px;
     margin: 10px;
+}
+
+.citation {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-family: 'Roboto',sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 50px;
+    
+}
+.citation-name{
+    font-size: 18px; 
+    font-style: normal;
+    font-weight: bold;
+    align-self: flex-end;
+}
+.bottom-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:80px 60px;
 
 }
-.header-list a{ 
-    text-decoration: none;
-    font-size: 18px;
-    color:#E5E7EB;
-    padding: 10px;
+.bottom-container {
+    display: flex;
+    padding: 20px 80px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    gap: 60px;
+    align-items: center;
 }
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+}
+.bottom-main-text {
+    font-size: 32px;
+}
+.bottom-sub-text {
+    font-size: 18px;
+}
+.footer {
+    display: block;
+    text-align: center;
+    background-color: #1f2937;
+    padding: 20px;
+    font-size: 18px;
+}
+
 
 a {
     font-family: Roboto;
@@ -84,28 +143,24 @@ a {
 .sign-button {
     padding: 8px 36px;
     margin-bottom: 15px;
-    border-radius:8px;
+    border-radius:4px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    color:#E5E7EB;
     background-color: #3882f6;
+    border-style: none;
     }
-.citation {
-    display: flex;
-    flex-direction: column;
-    background-color: #E5E7EB;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: light italic;
-    font-size: 36px;
-    color: #1f2937;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 50px;
+
+#bottom-button {
+    border-color: #E5E7EB;
+    border-style:solid;
+    margin-bottom: 0px;
 }
 
-
 .top-content img {
-    margin-right: auto;
+    margin-left: auto;
     display: flex;
     width: 300px;
     height: 300px;
     padding-bottom: 20px;
-    flex:none;
 }
